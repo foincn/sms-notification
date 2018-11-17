@@ -76,6 +76,6 @@ def sender_stop():
 
 sender_start()
 
-if '__main__' == '__main__':
+if '__name__' == '__main__':
     import code
     code.interact(banner = "", local = locals())
